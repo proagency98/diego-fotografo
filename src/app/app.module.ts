@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { PrincipalViewComponent } from './principal-view/principal-view.component';
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { EstilosFotografiaComponent } from './estilos-fotografia/estilos-fotografia.component';
-import { VideosComponent } from './videos/videos.component';
+
 import { FormularioComponent } from './formulario/formulario.component';
 import { FooterComponent } from './footer/footer.component';
+import { VideosDiegoComponent } from './videos-diego/videos-diego.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +17,9 @@ import { FooterComponent } from './footer/footer.component';
     PrincipalViewComponent,
     SobreMiComponent,
     EstilosFotografiaComponent,
-    VideosComponent,
     FormularioComponent,
-    FooterComponent
+    FooterComponent,
+    VideosDiegoComponent
   ],
   imports: [
     BrowserModule,
