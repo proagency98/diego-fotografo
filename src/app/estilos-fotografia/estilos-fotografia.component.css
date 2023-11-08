@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    width: 440px;
+    height: 133px;
+    margin-top: 20vh;
+    background-color: #8da1bd;
+    position: absolute;
+    top: 1090px;
+    left: 127px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.box-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+.box-title h1{
+    font-weight: 200;
+    text-align: center;
+}
