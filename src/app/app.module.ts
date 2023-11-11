@@ -9,7 +9,9 @@ import { EstilosFotografiaComponent } from './estilos-fotografia/estilos-fotogra
 
 import { FormularioComponent } from './formulario/formulario.component';
 import { FooterComponent } from './footer/footer.component';
-import { VideosDiegoComponent } from './videos-diego/videos-diego.component';
+
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { PhotoSliderDiegoComponent } from './photo-slider-diego/photo-slider-diego.component';
 
 @NgModule({
   declarations: [
@@ -19,11 +21,13 @@ import { VideosDiegoComponent } from './videos-diego/videos-diego.component';
     EstilosFotografiaComponent,
     FormularioComponent,
     FooterComponent,
-    VideosDiegoComponent
+    PhotoSliderDiegoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

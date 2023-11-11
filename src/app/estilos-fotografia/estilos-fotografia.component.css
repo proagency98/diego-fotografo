@@ -1,0 +1,23 @@
+.container-imagen-1{
+    display: flex;
+    position: absolute;
+    top: 500vh;
+}
+
+.container-imagen-2{
+    display: flex;
+    position: absolute;
+    top: 600vh;
+}
+.container-imagen-3{
+    display: flex;
+    position: absolute;
+    top: 700vh;
+}
+
+.estilos-fotografia{
+    display: flex;
+    position: absolute;
+    top: 2562px;
+    left: 20vh;
+}
