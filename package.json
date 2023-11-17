@@ -2,6 +2,7 @@
   "name": "diego-fotografo",
   "version": "0.0.0",
   "scripts": {
+    "compile-sass": "sass input.scss output.css",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -19,6 +20,8 @@
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
     "@fortawesome/fontawesome-free": "^6.4.2",
+    "animate.css": "^4.1.1",
+    "animate.scss": "^0.0.6",
     "ngx-slick-carousel": "^15.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -35,6 +38,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "node-sass": "^9.0.0",
     "typescript": "~5.1.3"
   }
 }

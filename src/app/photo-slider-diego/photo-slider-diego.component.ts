@@ -5,7 +5,7 @@ import { ICarouselItem } from './Icarousel-item-metadata';
 @Component({
   selector: 'app-photo-slider-diego',
   templateUrl: './photo-slider-diego.component.html',
-  styleUrls: ['./photo-slider-diego.component.css']
+  styleUrls: ['./photo-slider-diego.component.scss']
 })
 export class PhotoSliderDiegoComponent implements OnInit {
 
@@ -13,7 +13,7 @@ export class PhotoSliderDiegoComponent implements OnInit {
   /**
    * Custom Properties
    */
-  @Input() height = 700;
+  @Input() height = 800;
   @Input() isFullScreen = false;
   @Input() items: ICarouselItem[] = [];
 
@@ -22,7 +22,7 @@ export class PhotoSliderDiegoComponent implements OnInit {
    */
 
   public finalHeight: string | number = 0;
-  public currentPosition = 0;
+  public currentPosition: number = 0;
 
   constructor() {
     this.finalHeight = this.isFullScreen ? '100vh' : `${this.height}px`
